@@ -1,7 +1,13 @@
 import * as React from 'react';
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default function PostNew () {
     return (
-        <h1>Post New page</h1>
+        <>
+            <Header />
+            <div>Post Form</div>
+            <Footer />
+        </>
     );
 };

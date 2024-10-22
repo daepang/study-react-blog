@@ -1,7 +1,14 @@
 import * as React from 'react';
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import PostList from "../../components/PostList";
 
-export default function PostList () {
+export default function PostsPage () {
     return (
-        <h1>Post List page</h1>
+        <>
+            <Header />
+            <PostList hasNavigation={false} />
+            <Footer />
+        </>
     );
 };
